@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+ 
+    font-family: 'poppins' , sans-serif;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    /* color: white; */
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+.left{
+    color: white;
+    font-size: 1.2rem;
+}
+/* nav:hover{
+    border: 2px solid white;
+    
+} */
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 80px 0; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstSection > div{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+   
+}
+.leftSection{
+   font-size: 2.5rem;
+margin-top: 15% ;
+height: 50%;
+}
+
+.left:hover{
+/* background-color: red; */
+color: red;
+font-size: 1.3rem;
+}
+.rightSection img{
+   height: 70%;
+  
+   margin-top: 30px ;
+    /* background-color: white; */
+}
+span{
+    color: #fff;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+    font-size: 1.2rem;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    /* background-color: black */
+}
+IMG{
+    padding-top: 50PX;
+}
+.rightSection{
+    width:40%;
+    margin-top: 30px ;
+}
+#header{
+background-color: rgb(139, 111, 111);
+}
